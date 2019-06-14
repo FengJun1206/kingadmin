@@ -1,0 +1,51 @@
+ |—kingadmin
+│  admin.py
+│  admin_base.py		# 若模型类没有自定义样式，就用这个里面的基本样式
+│  apps.py
+│  app_setup.py		# 项目运行时第一个执行
+│  form_handle.py		# kingadmin 中表单处理
+│  models.py
+│  sites.py			# 模型类注册，单列模式
+│  tests.py
+│  tree.txt			# 目录树结构
+│  urls.py
+│  views.py		# 视图函数
+│  __init__.py
+│  
+├─migrations
+│  │  __init__.py
+│          
+├─my_primission		# 权限框架
+│  │  permissions.py
+│  │  permission_hook.py
+│  │  permission_list.py
+├─static
+│  ├─css
+│  │      bootstrap.css
+│  │      dashboard.css
+│  │      signin.css
+│  ├─js
+│  │      bootstrap.js
+│  │      jquery-3.3.1.js
+│  │      
+│  └─plugins
+├─templates
+│  │  app_manager.html
+│  │  kingadmin.html
+│  │  kingadmin_base.html
+│  │  login.html
+│  │  page_403.html
+│  │  sales_dashboard.html
+│  │  table_obj_add.html
+│  │  table_obj_change.html
+│  │  table_obj_delete.html
+│  │  table_obj_list.html
+│  │  
+│  └─include
+│          base.html
+│          index.html
+│          
+├─templatetags
+│  │  kingadmin_tags.py
+│  │  __init__.py
+
